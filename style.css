@@ -315,10 +315,10 @@ input:checked + .slider::before {
 @media screen and (max-width: 600px) {
   nav.responsive {
     display: flexbox;
-    position: absolute;
+    position: fixed;
   }
   nav.responsive a.icon {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
   }
@@ -332,6 +332,7 @@ input:checked + .slider::before {
 @media screen and (max-width: 600px){
   nav{
     width: 100vw;
+    position: fixed;
   }
   .title-group{
     width: 100vw;
@@ -348,7 +349,7 @@ input:checked + .slider::before {
   }
   .image-container{
     position: relative;
-    height: 60vh;
+    height: 70vh;
     justify-content: center;
     font-size: 15px;
     width: 200px;
@@ -377,6 +378,7 @@ input:checked + .slider::before {
   .about-container-flex{
     display: block;
     transform: scale(0.7);
+    margin-top: -100px;
   }
   .project-container{
     transform: scale(0.7);
