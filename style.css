@@ -72,7 +72,6 @@ a {
 
 a:hover{
   color: var(--on-primary);
-  border-bottom: 3px solid;
 }
 
 /* Home Section */

@@ -15,6 +15,7 @@ if (mqList.matches) {
     document.getElementById("imgflex1").removeAttribute("data-aos");
     document.getElementById("imgflex2").removeAttribute("data-aos");
     document.getElementById("imgflex3").removeAttribute("data-aos");
+    document.getElementById("profpic").removeAttribute("data-aos");
 }
 // If media query matches after resize
 // mqList.addListener(function(mql) {
