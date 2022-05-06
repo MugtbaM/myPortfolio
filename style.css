@@ -393,5 +393,12 @@ input:checked + .slider::before {
     margin-left: 290px;
     font-size: .8rem;
   }
+  .social-icons{
+    margin-right: -30px;
+  }
+  .prof-pic{
+    transform: scale(0.8);
+  }
+
 
 }
