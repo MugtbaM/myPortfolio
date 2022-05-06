@@ -293,6 +293,9 @@ input:checked + .slider::before {
 .slider.round::before {
   border-radius: 50%;
 }
+.social-icons{
+  margin-right: -40px;
+}
 
 .fab {
   font-size: 50px;
